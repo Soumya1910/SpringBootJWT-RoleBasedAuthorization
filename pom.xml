@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.5.6</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.spring.security</groupId>
 	<artifactId>SpringBootJWT-RoleBasedAuthorization</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SpringBootJWT-RoleBasedAuthorization</name>
-	<description>Demo project for Implementing JWT based authentication and role based authorization in Spring Boot</description>
+	<description>Demo project for Implementing JWT based authentication and
+		role based authorization in Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
@@ -36,6 +38,15 @@
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<artifactId>jjwt</artifactId>
+			<groupId>io.jsonwebtoken</groupId>
+			<version>0.9.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
