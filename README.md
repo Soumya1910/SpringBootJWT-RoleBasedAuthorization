@@ -6,5 +6,7 @@ This is an application to show JWT based authentication and role based authoriza
 ## 1_user_details_creation :
 	Remove .sql file and inject raw data from code
 	User details addition
-
+## 2_spring_security_added :
+	Added spring security dependencies
+	Spring Security related cofiguration done and added all the configuration classes
 
